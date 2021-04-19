@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amortization</title>
+    <link rel="stylesheet" href="emi.css">
+</head>
+<body>
+    <nav class="topic">
+        <h1>Amortization Calculator</h1>
+    </nav>
+    <div>
+        <form class="frm">
+            <label>Enter the loan amount</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" id="ln_amt"><br>
+            <label>Enter the term(in months)</label>&nbsp;
+            <input type="number" id="ln_trm"><br>
+            <label>Enter the interest rate(p.m)</label>&nbsp;
+            <input type="number" id="int_rte"><br>
+            <input type="submit" id="btn" value="Calculate EMI">
+        </form>
+    </div>
+    <div id="rslt_txt">
+    </div>
+    <script src="emi.js">
+    </script>
+    </body>
+</html>
